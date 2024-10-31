@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#EF1D0E"
+    tools:context=".ConfirmationActivity">
+
+    <!-- Judul Halaman -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order Food"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Kotak Nama Makanan -->
+    <TextView
+        android:id="@+id/tvFoodName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Makanan: "
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:background="@drawable/border_background"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Kotak Jumlah Porsi -->
+    <TextView
+        android:id="@+id/tvServings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jumlah Pesanan: "
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:background="@drawable/border_background"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Kotak Nama Pengorder -->
+    <TextView
+        android:id="@+id/tvOrderName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Customer: "
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:background="@drawable/border_background"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Kotak Alamat -->
+    <TextView
+        android:id="@+id/tvAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alamat: "
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:background="@drawable/border_background"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Kotak Catatan -->
+    <TextView
+        android:id="@+id/tvNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Catatan: "
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:background="@drawable/border_background"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Pesan Terima Kasih -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Terima kasih atas pesanan Anda"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Mohon menunggu pengiriman "
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/backtoMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Back To Order"/>
+
+</LinearLayout>
